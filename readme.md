@@ -1,0 +1,3 @@
+I have wrote the python code which extracts the statement of the problem,problem name,time limit,memory limit, tags, editorial from each contests and store them in a structured manner. The files are stored in the following manner---
+CP Resources-->contest name-->problem name-->info.txt(contains statement,input and output),solution.txt(contains solution of the problem),problem_data.json(contains tags,problem name,time limit,memory limit)
+Also while scraping i was facing problem in Verify You are a human capcha page.So i couldn't use selenium library. Instead i used cloudscraper library which eased my way to scrap the required data.
